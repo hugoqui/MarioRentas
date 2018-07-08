@@ -1,0 +1,55 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  background: #f9f9f9 !important;
+  overflow-x: hidden;
+
+}
+
+.pic-header {
+  height: 350px;
+  width: 100%;
+  background-image: url('assets/img/construccion_bg.jpeg');
+  background-size: cover;
+}
+
+.pic-cover {
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.title {
+  height: 150px;
+  position: relative;
+  top: 100px;
+}
+
+.equipment {
+  height: 350px;
+  background: #fff !important;
+  border: lightgray solid 1px;
+  border-radius: 4px;
+  padding: 12px;
+  text-align: center;
+}
+
+.equipment img {
+  max-width: 100%;
+  height: auto;
+}
+
+.btndetails {
+  border: solid gray 2px;
+  padding: 10px;
+  width: 100%;
+  margin-top: 15px;
+  cursor: pointer;
+  transition: all 500ms;
+  /* transition: all 300ms */
+}
+
+.btndetails:hover {
+  text-decoration: none;
+  background: #0050a9;
+  color: #fff;
+}

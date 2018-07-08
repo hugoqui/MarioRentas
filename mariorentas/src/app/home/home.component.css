@@ -1,0 +1,30 @@
+#searchbox {
+  max-width: 800px;
+}
+
+h1 {
+  font-weight: bold;
+}
+
+.text-box {
+  padding: 10px;
+  background: rgba(250, 250, 250, 0.7);
+  border: gray;
+  border-radius: 2px;
+}
+
+.text-box input {
+  border: none;
+  width: 85%;
+  background: transparent;
+}
+
+.text-box input:focus {
+  border: none;
+  outline: none;
+}
+
+i {
+  color: gray;
+  margin-right: 15px;
+}

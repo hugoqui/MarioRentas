@@ -1,7 +1,5 @@
-<nav class="navbar navbar-expand-lg " id="blue-bar">
-
+<nav class="navbar navbar-expand-lg" id="blue-bar">
   <ul class="navbar-nav mr-auto"></ul>
-
   <ul class="navbar-nav">
     <li class="nav-item">
       <a class="nav-link" href="">+22 34819 3819</a>
@@ -14,15 +12,15 @@
     </li>
   </ul>
 
-
 </nav>
 
 
 <nav class="navbar navbar-expand-lg" id="menuBar">
   <a class="navbar-brand" href="#">MarioRentas</a>
+
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
     aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
+    <i class="fas fa-bars" style="color:#fff"></i>
   </button>
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -51,8 +49,9 @@
 
     <ul class="navbar-nav">
       <li class="nav-item">
-        <a class="nav-link" href="">
-          <i class="fas fa-search"></i>
+        <a class="nav-link" href="#">
+          <input type="text" id="searchBox" style="display: none" placeholder="Buscar equipo...">
+          <i class="fas fa-search" id="searchIcon" (click)="searchAnimate()"></i>
         </a>
       </li>
       <li class="nav-item">

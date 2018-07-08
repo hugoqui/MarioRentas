@@ -44,3 +44,16 @@
 i {
   font-size: 18px;
 }
+
+#searchBox {
+  padding: 5px 10px;
+  margin-right: 20px;
+  border: none;
+  width: 300px;
+  border-radius: 4px;
+  color: darkgray;
+}
+
+#searchBox:focus{
+  outline: none;
+}

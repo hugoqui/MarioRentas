@@ -1,5 +1,5 @@
 $('.equipment').ready(function() {
   setTimeout(() => {
-    $('.equipment').show(700);
+    $('.equipment').fadeIn('slow');
   }, 300);
 });

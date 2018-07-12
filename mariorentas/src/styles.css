@@ -56,3 +56,28 @@ body {
   color: #fff;
   border:none;
 }
+
+.parallax {
+  margin-top: 30px;
+  width: 100%;
+  height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: container;
+}
+
+/* Turn off parallax scrolling for tablets and phones. Increase the pixels if needed */
+@media only screen and (max-device-width: 1366px) {
+  .parallax {
+      background-attachment: scroll;
+  }
+}
+
+h2{ font-weight: 100 !important}
+.round {border-radius: 21px !important}
+
+.white-content{
+  background: #fff; padding: 20px; padding-bottom: 50px;
+}
+.white-content p{ text-align: justify}
